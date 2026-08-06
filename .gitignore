@@ -1,0 +1,13 @@
+# 1. Chặn toàn bộ tất cả các file và thư mục
+*
+
+# 2. Không chặn các thư mục để Git quét vào bên trong
+!*/
+
+# 3. Chỉ cho phép các file được chỉ định
+!*.c
+!*.cpp
+!*.md
+
+# 4. Giữ lại chính file cấu hình gitignore
+!.gitignore
